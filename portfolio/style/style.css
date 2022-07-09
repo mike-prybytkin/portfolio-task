@@ -218,10 +218,18 @@ body {
   box-shadow: 0px 0px 10px #00000093 inset;
 }
 
-.line-section {
-  border-bottom: solid #bdae82 2px;
+.section-heading-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 700px;
   margin: 0 auto;
+  column-gap: 30px;
+}
+
+.line-section {
+  border-bottom: solid #bdae82 2px;
+  width: 100%;
 }
 
 h2 {
@@ -232,27 +240,11 @@ h2 {
 }
 
 .skills {
-  margin-top: 469px;
-}
-
-.skills,
-.portfolio,
-.video,
-.price,
-.contacts {
-  position: relative;
-}
-
-.section-heading {
-  position: absolute;
-  left: 44.8%;
-  top: -24px;
-  background-color: #000000;
-  padding: 0 20px 0 20px;
+  margin-top: 445px;
 }
 
 .skills ul {
-  margin-top: 99px;
+  margin-top: 79px;
 }
 
 .skills li {
@@ -285,12 +277,7 @@ h2 {
 }
 
 .portfolio {
-  margin-top: 144px;
-}
-
-.portfolio .section-heading {
-  left: 42.4%;
-  padding: 0 20px 0 20px;
+  margin-top: 100px;
 }
 
 .portfolio-btns {
@@ -342,7 +329,7 @@ h2 {
 }
 
 .video {
-  margin-top: 135px;
+  margin-top: 100px;
 }
 
 .video .video-player {
@@ -367,11 +354,7 @@ h2 {
 }
 
 .price {
-  margin-top: 140px;
-}
-
-.price .section-heading {
-  left: 45.1%;
+  margin-top: 100px;
 }
 
 .price .wrapper-price {
@@ -575,10 +558,6 @@ h2 {
     width: 450px;
   }
 
-  .skills {
-    margin-top: 435px;
-  }
-
   .skills ul {
     text-align: center;
   }
@@ -598,12 +577,6 @@ h2 {
 
   .skills ul li p {
     margin-top: 25px;
-  }
-
-  .portfolio,
-  .video,
-  .price {
-    margin-top: 105px;
   }
 
   .video-player .video-img {
@@ -680,6 +653,10 @@ h2 {
     padding-top: 50px;
     padding-left: 40px;
     width: 70%;
+  }
+
+  .skills {
+    margin-top: 400px;
   }
 
   .skills ul li,
@@ -766,9 +743,10 @@ h2 {
     margin-top: 30px;
   }
 
-  .line-section {
+  .section-heading-wrapper {
+    display: flex;
+    justify-content: center;
     width: 364px;
-    margin: 0 auto;
   }
 
   h2 {
@@ -776,12 +754,7 @@ h2 {
   }
 
   .skills {
-    margin-top: 269px;
-  }
-
-  .section-heading {
-    left: 41.8%;
-    top: -20px;
+    margin-top: 250px;
   }
 
   .skills ul {
@@ -805,12 +778,7 @@ h2 {
   }
 
   .portfolio {
-    margin-top: 160px;
-  }
-
-  .portfolio .section-heading {
-    left: 38.5%;
-    padding: 0 20px 0 20px;
+    margin-top: 50px;
   }
 
   .portfolio ul {
@@ -826,7 +794,7 @@ h2 {
   }
 
   .video {
-    margin-top: 118px;
+    margin-top: 80px;
   }
 
   .video-player .video-img {
@@ -844,11 +812,7 @@ h2 {
   }
 
   .price {
-    margin-top: 119px;
-  }
-
-  .price .section-heading {
-    left: 42.1%;
+    margin-top: 90px;
   }
 
   .price .wrapper-price {
@@ -1004,18 +968,6 @@ h2 {
     display: block;
     padding-right: 115px;
   }
-
-  .section-heading {
-    left: 39.8%;
-  }
-
-  .portfolio .section-heading {
-    left: 36.4%;
-  }
-
-  .price .section-heading {
-    left: 40.1%;
-  }
 }
 
 @media (max-width: 480px) {
@@ -1044,7 +996,7 @@ h2 {
   }
 
   .skills {
-    margin-top: 150px;
+    margin-top: 220px;
   }
 
   .skills .section-heading {
@@ -1067,11 +1019,7 @@ h2 {
   }
 
   .portfolio {
-    margin-top: 80px;
-  }
-
-  .portfolio .section-heading {
-    left: 23%;
+    margin-top: 20px;
   }
 
   .portfolio ul {
@@ -1090,14 +1038,6 @@ h2 {
   .portfolio .wrapper-photo img {
     width: 290px;
     height: auto;
-  }
-
-  .video .section-heading {
-    left: 30%;
-  }
-
-  .price .section-heading {
-    left: 33%;
   }
 
   .price .wrapper-price div {
